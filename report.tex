@@ -2,7 +2,7 @@
 \usepackage{macros-ohp}
 \definecolor{srscolor}{RGB}{13, 148, 125}
 \definecolor{srscolor2}{RGB}{13, 148, 125}
-%Please make sure the tex is compiled twice to have all the background images displayed correctly.
+% Please make sure the tex is compiled twice to have all the background images displayed correctly.
 
 \title{\Huge \textbf{ \textcolor{srscolor}{Analytically Predicting the Size of Magnetic Skyrmions in Bulk Materials}}}
 
@@ -10,23 +10,86 @@
 	\Large \textcolor{srscolor2}{Supervised by Karen Livesey}\\
 	\Large \textcolor{srscolor2}{University of Newcastle}\\
 }
-\date{\textcolor{srscolor}{\textless{}Update\textgreater{} 10 January 2025}}
+% This auto formats the date (maybe not ideal towards end?)
+\date{\textcolor{srscolor}{\today}}
 
 \linespread{1.5}
 
 \begin{document}
-	\begin{titlingpage}
-	\tikz[remember picture,overlay] \node[opacity=1,inner sep=0pt] at (current page.center){\includegraphics[width=\paperwidth,height=\paperheight]{imgs/background.png}};
-	\vspace*{3.5cm}
-	{\let\newpage\relax\maketitle}
-	\vspace*{\fill}
 
-	\end{titlingpage}
+% Title page
+\begin{titlingpage}
+\tikz[remember picture,overlay] \node[opacity=1,inner sep=0pt] at (current page.center){\includegraphics[width=\paperwidth,height=\paperheight]{imgs/background.png}};
+\vspace*{3.5cm}
+{\let\newpage\relax\maketitle}
+\vspace*{\fill}
+\end{titlingpage}
 
 
-The first page of the report.
 
-% This is a comment
+% Use asterisk to not number
+\section*{Playing around}
+% These are automatically numbered
+% You can add newlines here and it wont matter
 
-\Blinddocument
+This is the first section. Notice how newlines are automatically formatted to be indented.
+But this is still within the same paragraph.
+% Remember that whitespace (newlines are included in paragraph formatting...)
+There is no newline after comments.
+
+% End new line
+
+\subsection*{Formatting example}
+An example of \textbf{bold} text.
+An example of \textit{italicised} text.
+An example of \underline{underlined} text.
+Tabs are not included though
+
+\subsection*{Back to normal}
+Hello this is a test.
+\paragraph{New paragraph?}
+This is my paragraph. It is very long.
+\subparagraph{Subparagraph!}
+This is my subparagraph. Very interesting and exciting.
+\blindtext{}
+
+\tableofcontents
+
+
+\section*{Abstract}
+\blindtext{}
+
+\section{Introduction}
+\blindtext{}
+
+\section{Ansatz}
+\blindtext{}
+
+\section{Energy Contributions}
+\blindtext{}
+
+\section{Minimising Energy}
+\blindtext{}
+
+\section{Discussion}
+\blindtext{}
+
+\section{Future Work}
+\blindtext{}
+
+\section{Conclusion}
+\blindtext{}
+
+\section{Acknowledgements}
+\blindtext{}
+
+\section{References}
+% This probably has its own auto formatted command
+\blindtext{}
+
+
+% Might need to download bibtex
+\bibliographystyle{apsrev4-1}
+\bibliography{apssamp}
+
 \end{document}

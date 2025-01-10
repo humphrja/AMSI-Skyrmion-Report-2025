@@ -1,0 +1,12 @@
+\babel@toc {english}{}\relax 
+\contentsline {paragraph}{New paragraph?}{1}{}%
+\contentsline {subparagraph}{Subparagraph!}{1}{}%
+\contentsline {section}{\numberline {1}Introduction}{2}{}%
+\contentsline {section}{\numberline {2}Ansatz}{2}{}%
+\contentsline {section}{\numberline {3}Energy Contributions}{2}{}%
+\contentsline {section}{\numberline {4}Minimising Energy}{3}{}%
+\contentsline {section}{\numberline {5}Discussion}{3}{}%
+\contentsline {section}{\numberline {6}Future Work}{3}{}%
+\contentsline {section}{\numberline {7}Conclusion}{3}{}%
+\contentsline {section}{\numberline {8}Acknowledgements}{4}{}%
+\contentsline {section}{\numberline {9}References}{4}{}%
